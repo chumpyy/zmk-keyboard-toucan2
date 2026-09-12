@@ -120,14 +120,14 @@
         sym {
             display-name = "SYM";
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp AMPS  &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &kp LS(DEL)  &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BSLH  &kp PIPE  &kp LEFT_SHIFT  &kp LS(SLASH)  &none  &none  &kp CARET  &kp NUMBER_6  &kp CARET  &kp QUESTION  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT  &kp LGUI  &kp BACKSPACE  &mo 3  &kp LEFT_SHIFT  &none  &bootloader
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp AMPS  &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &kp LS(DEL)  &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BSLH  &kp PIPE  &kp LEFT_SHIFT  &kp LS(SLASH)  &none  &none  &kp CARET  &kp NUMBER_6  &kp CARET  &kp QUESTION  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT  &kp LGUI  &kp BACKSPACE  &mo 3  &kp K_MUTE  &none  &bootloader
             >;
         };
 
         wrk {
             display-name = "ADJ";
             bindings = <
-&bt BT_NXT  &kp LC(NUMBER_1)  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))  &kp F6  &kp C_MUTE  &kp LC(LA(UP_ARROW))  &none  &bt BT_SEL 0  &kp C_VOLUME_UP  &out OUT_TOG  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &none  &kp LS(LG(LEFT))  &kp LC(LA(DOWN))  &kp LS(LG(RIGHT))  &none  &kp K_MUTE  &bt BT_PRV  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp C_VOLUME_DOWN  &none  &kp LEFT_GUI  &kp K_MUTE  &mt LEFT_GUI ENTER  &kp LEFT_SHIFT  &kp LCTRL
+&bt BT_NXT  &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))  &kp F6  &kp C_MUTE  &kp LC(LA(UP_ARROW))  &none  &bt BT_SEL 0  &kp C_VOLUME_UP  &bt BT_SEL 0  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &none  &kp LS(LG(LEFT))  &kp LC(LA(DOWN))  &kp LS(LG(RIGHT))  &none  &kp K_MUTE  &bt BT_PRV  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp C_VOLUME_DOWN  &none  &out OUT_BLE  &out OUT_USB  &mt LEFT_GUI ENTER  &kp LEFT_SHIFT  &kp LCTRL
             >;
         };
 
