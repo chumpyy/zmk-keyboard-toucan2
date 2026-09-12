@@ -14,6 +14,8 @@
     flavor = "tap-preferred";
 };
 
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS KP_MINUS>; };
+
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
@@ -103,6 +105,16 @@
             key-positions = <31 34>;
             layers = <0 2>;
         };
+
+        cb_j_k {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        cb_k_l {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
@@ -125,7 +137,7 @@
         sym {
             display-name = "SYM";
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp AMPS  &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &kp LS(DEL)  &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BSLH  &kp PIPE  &kp LEFT_SHIFT  &kp LS(SLASH)  &none  &none  &kp CARET  &kp NUMBER_6  &kp CARET  &kp QUESTION  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT  &kp LGUI  &kp BACKSPACE  &mo 3  &kp K_MUTE  &none  &bootloader
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp AMPS  &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &kp LS(DELETE)  &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BSLH  &kp PIPE  &kp LEFT_SHIFT  &kp LS(SLASH)  &none  &none  &kp CARET  &kp NUMBER_6  &kp CARET  &kp QUESTION  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT  &kp LGUI  &kp BACKSPACE  &mo 3  &kp K_MUTE  &none  &bootloader
             >;
         };
 
