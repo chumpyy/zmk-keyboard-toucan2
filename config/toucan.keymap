@@ -16,6 +16,11 @@
 
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS KP_MINUS>; };
 
+&sk {
+    release-after-ms = <3000>;
+    quick-release;
+};
+
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
