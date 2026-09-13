@@ -124,17 +124,6 @@
         };
     };
 
-    behaviors {
-        td_shift_caps: td_shift_caps {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_SHIFT_CAPS";
-            #binding-cells = <0>;
-            bindings = <&sk LEFT_SHIFT>, <&caps_word>;
-
-            tapping-term-ms = <400>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
