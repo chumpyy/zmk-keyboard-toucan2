@@ -150,7 +150,7 @@
         nav {
             display-name = "NAV";
             bindings = <
-&none  &kp F2  &kp LC(F5)  &kp LG(E)  &kp LA(LC(R))  &kp LC(T)  &kp LC(Y)  &kp HOME  &kp UP_ARROW  &kp END  &none  &kp LS(DELETE)  &kp LC(LEFT_SHIFT)  &kp LC(A)  &kp LC(S)  &kp LS(F3)  &kp LC(F)  &kp F3  &kp DEL  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp K_MUTE  &kp LSHFT  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp F12  &kp PAGE_UP  &kp LS(LC(LEFT))  &none  &kp LS(LC(RIGHT))  &kp PAGE_DOWN  &kp RIGHT_SHIFT  &bootloader  &none  &studio_unlock  &kp LEFT_SHIFT  &kp BACKSPACE  &none
+&kp K_MUTE  &kp F2  &kp LC(F5)  &kp LG(E)  &kp LA(LC(R))  &kp LC(T)  &kp LC(Y)  &kp HOME  &kp UP_ARROW  &kp END  &none  &kp LS(DELETE)  &kp LC(LEFT_SHIFT)  &kp LC(A)  &kp LC(S)  &kp LS(F3)  &kp LC(F)  &kp F3  &kp DEL  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp K_MUTE  &kp LSHFT  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp F12  &kp PAGE_UP  &kp LS(LC(LEFT))  &none  &kp LS(LC(RIGHT))  &kp PAGE_DOWN  &kp RIGHT_SHIFT  &bootloader  &none  &studio_unlock  &kp LEFT_SHIFT  &kp BACKSPACE  &none
             >;
         };
 
