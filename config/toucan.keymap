@@ -19,6 +19,8 @@
     quick-release;
 };
 
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS KP_MINUS LEFT_ARROW>; };
+
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
@@ -125,11 +127,11 @@
     };
 
     behaviors {
-        caps_word: caps_word {
-            compatible = "zmk,behavior-caps-word";
-            label = "CAPS_WORD";
+        td_shift_caps: td_shift_caps {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_SHIFT_CAPS";
             #binding-cells = <0>;
-            continue-list = <UNDERSCORE MINUS KP_MINUS BACKSPACE DELETE LEFT_ARROW RIGHT_ARROW>;
+            bindings = <&sk LEFT_SHIFT>, <&none>;
         };
     };
 
@@ -139,7 +141,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt LEFT_ALT PRINTSCREEN  &caps_word  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LCTRL Z  &mt LEFT_GUI X  &mt LEFT_ALT C  &kp V  &kp B  &kp N  &kp M  &mt LALT COMMA  &mt LEFT_GUI DOT  &mt LCTRL SLASH  &kp RIGHT_SHIFT  &lt 3 LEFT_GUI  &mo 1  &sk LEFT_SHIFT  &kp RET  &lt 2 SPACE  &mo 1
+&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt LEFT_ALT PRINTSCREEN  &none  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LCTRL Z  &mt LEFT_GUI X  &mt LEFT_ALT C  &kp V  &kp B  &kp N  &kp M  &mt LALT COMMA  &mt LEFT_GUI DOT  &mt LCTRL SLASH  &kp RIGHT_SHIFT  &lt 3 LEFT_GUI  &mo 1  &sk LEFT_SHIFT  &kp RET  &lt 2 SPACE  &mo 1
             >;
         };
 
