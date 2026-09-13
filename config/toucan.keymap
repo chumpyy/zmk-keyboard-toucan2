@@ -14,8 +14,6 @@
     flavor = "tap-preferred";
 };
 
-&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS KP_MINUS>; };
-
 &sk {
     release-after-ms = <3000>;
     quick-release;
@@ -31,6 +29,7 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <15 16>;
             layers = <0 2>;
+            timeout-ms = <20>;
         };
 
         cb_w_e_r {
@@ -43,6 +42,7 @@
             bindings = <&kp KP_SUBTRACT>;
             key-positions = <14 15>;
             layers = <0 2>;
+            timeout-ms = <20>;
         };
 
         cb_s_d_f {
@@ -114,11 +114,13 @@
         cb_j_k {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <19 20>;
+            timeout-ms = <20>;
         };
 
         cb_k_l {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
+            timeout-ms = <20>;
         };
     };
 
@@ -139,7 +141,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt LEFT_ALT PRINTSCREEN  &caps_word  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LCTRL Z  &mt LEFT_GUI X  &mt LEFT_ALT C  &kp V  &kp B  &kp N  &kp M  &mt LALT COMMA  &mt LEFT_GUI DOT  &mt LCTRL SLASH  &kp RIGHT_SHIFT  &lt 3 LEFT_GUI  &mo 1  &td_shift_caps  &kp RET  &lt 2 SPACE  &mo 1
+&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt LEFT_ALT PRINTSCREEN  &caps_word  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LCTRL Z  &mt LEFT_GUI X  &mt LEFT_ALT C  &kp V  &kp B  &kp N  &kp M  &mt LALT COMMA  &mt LEFT_GUI DOT  &mt LCTRL SLASH  &kp RIGHT_SHIFT  &lt 3 LEFT_GUI  &mo 1  &sk LEFT_SHIFT  &kp RET  &lt 2 SPACE  &mo 1
             >;
         };
 
