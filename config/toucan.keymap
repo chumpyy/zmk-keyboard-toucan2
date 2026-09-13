@@ -132,6 +132,8 @@
             label = "TD_SHIFT_CAPS";
             #binding-cells = <0>;
             bindings = <&sk LEFT_SHIFT>, <&caps_word>;
+
+            tapping-term-ms = <400>;
         };
     };
 
