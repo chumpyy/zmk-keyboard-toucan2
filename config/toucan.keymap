@@ -96,7 +96,7 @@
         };
 
         cb_j_semi {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <19 22>;
             layers = <0 2>;
         };
@@ -117,12 +117,40 @@
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <19 20>;
             timeout-ms = <20>;
+            layers = <0 2>;
         };
 
         cb_k_l {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
             timeout-ms = <20>;
+            layers = <0 2>;
+        };
+
+        cb_j_l {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <19 21>;
+            layers = <0 2>;
+        };
+
+        cb_u_o {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <7 9>;
+            layers = <0 2>;
+        };
+
+        cb_u_i {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 8>;
+            timeout-ms = <20>;
+            layers = <0 2>;
+        };
+
+        cb_i_o {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <8 9>;
+            timeout-ms = <20>;
+            layers = <0 2>;
         };
     };
 
@@ -162,7 +190,7 @@
         };
 
         wrk {
-            display-name = "ADJ";
+            display-name = "WRK";
             bindings = <
 &bt BT_NXT  &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))  &kp F6  &kp C_MUTE  &kp LC(LA(UP_ARROW))  &none  &bt BT_SEL 0  &kp C_VOLUME_UP  &bt BT_PRV  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &none  &kp LS(LG(LEFT))  &kp LC(LA(DOWN))  &kp LS(LG(RIGHT))  &bt BT_SEL 1  &kp K_MUTE  &bt BT_CLR  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp C_VOLUME_DOWN  &none  &out OUT_BLE  &out OUT_USB  &mt LEFT_GUI ENTER  &kp LEFT_SHIFT  &kp LCTRL
             >;
