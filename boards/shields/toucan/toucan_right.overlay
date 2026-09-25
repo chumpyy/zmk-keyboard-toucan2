@@ -60,7 +60,7 @@
         // timeout-lp1 = <3>; // 60s timeout before entering lp2 state (20 secs per unit) (default was 20s)
         timeout-lp1 = <9>; // PCABRAL: 3min timeout before entering lp2
         //report-rate-lp2 = <640>; // 640ms report rate in LP2 state means 55uA draw rather than default 160ms 174uA draw
-        report-rate-lp2 = <160>; // PCABRAL the default, can be lowered further, e.g. 100
+        report-rate-lp2 = <100>; // PCABRAL the default <160>, can be lowered further, e.g. <100>
         scroll-angle = <30>; // The default angle (about 47 deg) is too big on toucan2 I think
         sensitivity = <100>;
         scroll-sensitivity = <100>;
