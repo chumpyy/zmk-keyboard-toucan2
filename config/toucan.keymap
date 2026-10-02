@@ -38,6 +38,7 @@
             bindings = <&kp KP_EQUAL>;
             key-positions = <2 3 4>;
             layers = <0 2>;
+            timeout-ms = <20>;
         };
 
         cb_s_d {
@@ -51,6 +52,7 @@
             bindings = <&kp PLUS>;
             key-positions = <14 15 16>;
             layers = <0 2>;
+            timeout-ms = <20>;
         };
 
         cb_a_f {
@@ -134,7 +136,7 @@
         };
 
         cb_u_o {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 9>;
             layers = <0 2>;
         };
@@ -142,15 +144,26 @@
         cb_u_i {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 8>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
             layers = <0 2>;
         };
 
         cb_i_o {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 9>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
             layers = <0 2>;
+        };
+
+        cb_s_f {
+            bindings = <&kp PLUS>;
+            key-positions = <14 16>;
+        };
+
+        cb_w_r {
+            bindings = <&kp EQUAL>;
+            key-positions = <2 4>;
+            timeout-ms = <20>;
         };
     };
 
