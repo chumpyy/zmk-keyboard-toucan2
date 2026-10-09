@@ -41,13 +41,6 @@
             timeout-ms = <20>;
         };
 
-        cb_s_d_f {
-            bindings = <&kp PLUS>;
-            key-positions = <14 15 16>;
-            layers = <0 2>;
-            timeout-ms = <20>;
-        };
-
         cb_a_f {
             bindings = <&kp ESC>;
             key-positions = <13 16>;
@@ -104,12 +97,6 @@
             layers = <0 2>;
         };
 
-        cb_j_k {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <19 20>;
-            layers = <0 2>;
-        };
-
         cb_u_i_o {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 9>;
@@ -122,11 +109,6 @@
             key-positions = <8 9 7>;
             timeout-ms = <10>;
             layers = <0 2>;
-        };
-
-        cb_s_f {
-            bindings = <&kp PLUS>;
-            key-positions = <14 16>;
         };
 
         cb_w_r {
@@ -153,6 +135,11 @@
         cb_s_d_f {
             bindings = <&kp PLUS>;
             key-positions = <14 15 16>;
+        };
+
+        cb_s_f {
+            bindings = <&kp PLUS>;
+            key-positions = <16 14>;
         };
     };
 
