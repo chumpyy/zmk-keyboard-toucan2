@@ -47,13 +47,13 @@
             layers = <0 2 3 1>;
         };
 
-        cb_m_gt {
+        cb_m_dot {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <31 33>;
             layers = <0 2>;
         };
 
-        cb_m_lt_gt {
+        cb_m_comma_dot {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <31 33 32>;
             layers = <0 2>;
@@ -97,14 +97,14 @@
             layers = <0 2>;
         };
 
-        cb_u_i_o {
+        cb_u_o {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 9>;
             timeout-ms = <10>;
             layers = <0 2>;
         };
 
-        cb_i_o {
+        cb_u_i_o {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 9 7>;
             timeout-ms = <10>;
@@ -140,6 +140,11 @@
         cb_s_f {
             bindings = <&kp PLUS>;
             key-positions = <16 14>;
+        };
+
+        cb_l_sc {
+            bindings = <&kp COLON>;
+            key-positions = <21 22>;
         };
     };
 
