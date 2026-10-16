@@ -186,7 +186,7 @@
         wrk {
             display-name = "WRK";
             bindings = <
-&bt BT_NXT  &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))  &kp F6  &kp LG(LS(LEFT))  &kp LC(LA(UP_ARROW))  &kp LG(LS(RIGHT))  &none  &kp C_VOLUME_UP  &bt BT_PRV  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &kp F6  &kp LS(LG(LEFT))  &kp LC(LA(DOWN))  &kp LS(LG(RIGHT))  &kp F12  &kp K_MUTE  &bt BT_CLR  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp C_VOLUME_DOWN  &none  &out OUT_BLE  &out OUT_USB  &mt LEFT_GUI ENTER  &kp LEFT_SHIFT  &kp LCTRL
+&bt BT_NXT  &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))  &kp F6  &kp LG(LS(LEFT))  &kp LC(LA(UP_ARROW))  &kp LG(LS(RIGHT))  &none  &kp C_VOLUME_UP  &bt BT_PRV  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &kp F6  &kp LS(LG(LEFT))  &kp LC(LA(DOWN))  &kp LS(LG(RIGHT))  &kp F12  &kp K_MUTE  &bt BT_CLR  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp C_VOLUME_DOWN  &none  &out OUT_BLE  &out OUT_USB  &kp LCTRL  &kp LEFT_SHIFT  &kp RIGHT_SHIFT
             >;
         };
 
