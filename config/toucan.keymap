@@ -21,7 +21,7 @@
 
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS KP_MINUS LEFT_ARROW>; };
 
-&lt { tapping-term-ms = <160>; };
+&lt { tapping-term-ms = <180>; };
 
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -164,7 +164,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <160>;
+            tapping-term-ms = <180>;
             bindings = <&mo>, <&sk>;
         };
 
