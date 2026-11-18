@@ -148,6 +148,16 @@
             bindings = <&kp COLON>;
             key-positions = <21 22>;
         };
+
+        cb_x_v {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <28 26>;
+        };
+
+        cb_x_c_v {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <28 27 26>;
+        };
     };
 
     behaviors {
@@ -182,7 +192,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt LEFT_ALT PRINTSCREEN  &caps_word  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LCTRL Z  &mt LEFT_GUI X  &mt LEFT_ALT C  &kp V  &kp B  &kp N  &kp M  &mt LALT COMMA  &mt LEFT_GUI DOT  &mt LCTRL SLASH  &kp RIGHT_SHIFT  &lt 3 LEFT_GUI  &lt_sk 1 LSHFT  &td_shift_caps  &kp RET  &lt 2 SPACE  &mo 1
+&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt LEFT_ALT PRINTSCREEN  &caps_word  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LCTRL Z  &mt LEFT_GUI X  &mt LEFT_ALT C  &kp V  &kp B  &kp N  &kp M  &mt LALT COMMA  &mt LEFT_GUI DOT  &mt LCTRL SLASH  &kp RIGHT_SHIFT  &lt 3 LEFT_GUI  &lt_sk 1 LSHFT  &td_shift_caps  &mt LA(LC(LCTRL)) ENTER  &lt 2 SPACE  &mo 1
             >;
         };
 
@@ -203,7 +213,7 @@
         wrk {
             display-name = "WRK";
             bindings = <
-&bt BT_NXT  &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))  &kp F6  &kp LG(LS(LEFT))  &kp LC(LA(UP_ARROW))  &kp LG(LS(RIGHT))  &none  &kp C_VOLUME_UP  &bt BT_PRV  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &kp F6  &kp LS(LG(LEFT))  &kp LC(LA(DOWN))  &kp LS(LG(RIGHT))  &kp F12  &kp K_MUTE  &bt BT_CLR  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp C_VOLUME_DOWN  &none  &out OUT_BLE  &out OUT_USB  &kp LCTRL  &kp LEFT_SHIFT  &kp RIGHT_SHIFT
+&kp DELETE  &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))  &kp F6  &kp LG(LS(LEFT))  &kp LC(LA(UP_ARROW))  &kp LG(LS(RIGHT))  &none  &kp C_VOLUME_UP  &bt BT_PRV  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)  &kp F6  &kp LS(LG(LEFT))  &kp LC(LA(DOWN))  &kp LS(LG(RIGHT))  &kp F12  &kp K_MUTE  &bt BT_CLR  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp C_VOLUME_DOWN  &none  &out OUT_BLE  &out OUT_USB  &kp LCTRL  &kp LEFT_SHIFT  &kp RIGHT_SHIFT
             >;
         };
 
@@ -211,6 +221,12 @@
             display-name = "MOU";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mkp LCLK  &mkp RCLK  &mkp MCLK
+            >;
+        };
+
+        APP {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
